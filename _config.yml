@@ -1,0 +1,5 @@
+title: "Joey 的博客"
+description: "我的个人网站"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
