@@ -76,10 +76,12 @@ body,
   display: none !important;
 }
 
-/* ✅ 文章页面左右留白 */
-.layout--single .page__inner-wrap {
-  max-width: 750px !important;
-  margin: 0 auto !important;
-  padding: 0 40px !important;
+/* 让整篇文章变窄并居中 */
+.layout--single .page {
+  max-width: 760px !important;
+  margin: 40px auto !important;
+  background: #e6f3ff !important;
+  padding: 40px !important;
+  border-radius: 20px !important;
   box-sizing: border-box !important;
 }
