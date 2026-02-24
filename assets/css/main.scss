@@ -10,7 +10,18 @@
   opacity: 1 !important;
 }
 
-/* 整体背景改成浅蓝 */
-body {
+/* 整个网站背景统一浅蓝 */
+html,
+body,
+.page,
+.initial-content,
+.masthead,
+.sidebar,
+.page__footer {
   background-color: #e6f3ff !important;
+}
+
+/* 去掉可能的白色块 */
+.page__content {
+  background-color: transparent !important;
 }
