@@ -75,3 +75,9 @@ body,
 .archive__item-excerpt p {
   display: none !important;
 }
+
+.page__content {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
