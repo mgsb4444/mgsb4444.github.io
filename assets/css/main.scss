@@ -76,8 +76,10 @@ body,
   display: none !important;
 }
 
-.page .wrapper {
+/* ✅ 文章页面左右留白 */
+.layout--single .page__inner-wrap {
   max-width: 750px !important;
   margin: 0 auto !important;
   padding: 0 40px !important;
+  box-sizing: border-box !important;
 }
