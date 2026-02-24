@@ -24,3 +24,24 @@ body,
 .page__content {
   background-color: transparent !important;
 }
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav a,
+.greedy-nav__toggle,
+.site-title,
+.site-subtitle {
+  background-color: #e6f3ff !important;
+}
+
+/* 有时看起来像白块其实是边框/阴影 */
+.masthead {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.greedy-nav a,
+.site-title {
+  color: #0b2a4a !important;
+}
