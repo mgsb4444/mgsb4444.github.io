@@ -83,3 +83,18 @@ body,
   padding-left: 40px !important;
   padding-right: 40px !important;
 }
+
+/* 单篇文章页：让正文变成居中白色卡片，留白立刻可见 */
+.layout--single .page__inner-wrap {
+  max-width: 720px !important;
+  margin: 40px auto !important;
+  padding: 0 24px !important;     /* 外侧留白 */
+  box-sizing: border-box !important;
+}
+
+.layout--single .page__content {
+  background: #ffffff !important; /* 关键：让留白看得见 */
+  padding: 28px 36px !important;  /* 内侧留白 */
+  border-radius: 18px !important;
+  box-sizing: border-box !important;
+}
