@@ -6,6 +6,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-feed
 author:
   name   : "初の心"
   avatar : "/assets/images/avatar.png"
