@@ -76,12 +76,15 @@ body,
   display: none !important;
 }
 
-/* 让整篇文章变窄并居中 */
-.layout--single .page {
-  max-width: 760px !important;
-  margin: 40px auto !important;
-  background: #e6f3ff !important;
-  padding: 40px !important;
-  border-radius: 20px !important;
-  box-sizing: border-box !important;
+/* 单篇文章页居中 + 控制宽度 */
+.layout--single .page__inner-wrap {
+  max-width: 720px !important;   /* 控制文章宽度 */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 文章内部左右留白 */
+.layout--single .page__content {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
