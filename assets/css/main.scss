@@ -69,3 +69,9 @@ body,
 .page__title {
   color: #ff8d8d !important;
 }
+
+/* 强制隐藏首页文章预览（标题下面那几句话） */
+.archive__item-excerpt,
+.archive__item-excerpt p {
+  display: none !important;
+}
