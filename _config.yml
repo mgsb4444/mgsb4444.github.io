@@ -16,3 +16,5 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgsb4444"
+sass:
+  style: compressed
