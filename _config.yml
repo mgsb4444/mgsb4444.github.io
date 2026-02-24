@@ -6,3 +6,12 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+author:
+  name   : "初の心"
+  avatar : "/assets/images/avatar.png"
+  bio    : "高中生 | 宅 | 二次元"
+  location : "USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mgsb4444"
