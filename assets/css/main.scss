@@ -1,6 +1,8 @@
 ---
 ---
+
 @import "minimal-mistakes";
+
 /* 侧边栏一直清晰 */
 .sidebar,
 .author__avatar img,
@@ -8,10 +10,9 @@
   opacity: 1 !important;
 }
 
-/* 整个网站背景统一浅蓝 */
+/* 全站浅蓝背景（注意：不要包含 .page，否则看不出留白） */
 html,
 body,
-.page,
 .initial-content,
 .masthead,
 .sidebar,
@@ -19,6 +20,7 @@ body,
   background-color: #e6f3ff !important;
 }
 
+/* 顶部导航区域也改成浅蓝 */
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav,
@@ -35,66 +37,48 @@ body,
 .page__hero--overlay .wrapper {
   background-color: #e6f3ff !important;
 }
-/* Header 标题 */
+
+/* Header 标题变深一点 */
 .site-title,
 .page__hero h1 {
   color: #0b2a4a !important;
 }
 
-/* Recent Posts 标题 */
+/* Recent Posts 标题变深 */
 .archive__subtitle {
   color: #0b2a4a !important;
 }
 
-/* 文章标题 */
-.archive__item-title a {
-  color: #0b2a4a !important;
-}
-
-/* 文章标题改成 #ff8d8d */
+/* 首页文章标题颜色 */
 .archive__item-title a {
   color: #ff8d8d !important;
 }
-
-/* 鼠标放上去时稍微深一点（可选，更好看） */
 .archive__item-title a:hover {
   color: #ff6f6f !important;
 }
 
+/* 文章内页标题颜色 */
 .page__title {
   color: #ff8d8d !important;
 }
 
-/* 强制隐藏首页文章预览（标题下面那几句话） */
+/* 关闭首页文章预览（标题下面那几句话） */
 .archive__item-excerpt,
 .archive__item-excerpt p {
   display: none !important;
 }
 
-/* 单篇文章页居中 + 控制宽度 */
+/* ✅ 单篇文章页：居中 + 左右留白 + 白色卡片（效果最明显） */
 .layout--single .page__inner-wrap {
-  max-width: 720px !important;   /* 控制文章宽度 */
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* 文章内部左右留白 */
-.layout--single .page__content {
-  padding-left: 40px !important;
-  padding-right: 40px !important;
-}
-
-/* 单篇文章页：让正文变成居中白色卡片，留白立刻可见 */
-.layout--single .page__inner-wrap {
-  max-width: 720px !important;
-  margin: 40px auto !important;
-  padding: 0 24px !important;     /* 外侧留白 */
+  max-width: 720px !important;   /* 文章整体宽度 */
+  margin: 40px auto !important;  /* 居中 */
+  padding: 0 24px !important;    /* 外侧留白（屏幕边缘到卡片） */
   box-sizing: border-box !important;
 }
 
 .layout--single .page__content {
-  background: #ffffff !important; /* 关键：让留白看得见 */
-  padding: 28px 36px !important;  /* 内侧留白 */
+  background: #ffffff !important; /* 卡片底色 */
+  padding: 28px 36px !important;  /* 内侧留白（文字到卡片边缘） */
   border-radius: 18px !important;
   box-sizing: border-box !important;
 }
