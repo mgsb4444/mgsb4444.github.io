@@ -76,8 +76,8 @@ body,
   display: none !important;
 }
 
-/* 文章内容左右增加空间 */
-.page__content {
-  padding-left: 40px !important;
-  padding-right: 40px !important;
+.page .wrapper {
+  max-width: 750px !important;
+  margin: 0 auto !important;
+  padding: 0 40px !important;
 }
