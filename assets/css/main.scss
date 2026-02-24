@@ -41,3 +41,24 @@ body,
 .page__hero--overlay .wrapper {
   background-color: #e6f3ff !important;
 }
+/* Header 标题 */
+.site-title,
+.page__hero h1 {
+  color: #0b2a4a !important;
+}
+
+/* Recent Posts 标题 */
+.archive__subtitle {
+  color: #0b2a4a !important;
+}
+
+/* 文章标题 */
+.archive__item-title a {
+  color: #0b2a4a !important;
+}
+
+/* 文章预览文字（标题下面几句话） */
+.archive__item-excerpt,
+.archive__item-excerpt p {
+  color: #1a1a1a !important;
+}
