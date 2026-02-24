@@ -61,3 +61,15 @@ body,
 .archive__item-excerpt p {
   color: #1a1a1a !important;
 }
+/* 文章标题改成 #ff8d8d */
+.archive__item-title a {
+  color: #ff8d8d !important;
+}
+
+/* 鼠标放上去时稍微深一点（可选，更好看） */
+.archive__item-title a:hover {
+  color: #ff6f6f !important;
+}
+.page__title {
+  color: #ff8d8d !important;
+}
