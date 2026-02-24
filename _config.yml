@@ -1,5 +1,8 @@
-title: "Joey 的博客"
+title: "mgsb4444 的博客"
 description: "我的个人网站"
+
 remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
